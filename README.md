@@ -20,8 +20,9 @@ Após a instalação, configure seu nome de usuário e e-mail, que serão usados
 ```bash
 git config --global user.name \"Seu Nome\"
 git config --global user.email seuemail@example.com
-
+```
 ### 3. Principais comandos
+```Bash
 git init # Inicializa um repositório
 git clone URL_DO_REPOSITORIO # Clonar um repositório existente
 git status # Verificar o status do repositório
