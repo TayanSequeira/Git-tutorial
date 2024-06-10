@@ -20,3 +20,15 @@ Após a instalação, configure seu nome de usuário e e-mail, que serão usados
 ```bash
 git config --global user.name \"Seu Nome\"
 git config --global user.email seuemail@example.com
+
+### 3. Principais comandos
+git init # Inicializa um repositório
+git clone URL_DO_REPOSITORIO # Clonar um repositório existente
+git status # Verificar o status do repositório
+git add NOME_DO_ARQUIVO # Adicionar arquivos ao índice
+git commit -m "Mensagem do commit" # Comitar mudanças
+git log # Ver o histórico de commits
+git restore File # Retornar modificacoes no arquivo
+git restore --staged File # Retornar um arquivo do staged antes do commit
+git push origin NOME_DA_BRANCH # Enviar commits para o GitHub
+git pull origin NOME_DA_BRANCH # Atualizar o repositório local com mudanças do GitHub
