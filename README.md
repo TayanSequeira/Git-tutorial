@@ -33,3 +33,4 @@ git restore File # Retornar modificacoes no arquivo
 git restore --staged File # Retornar um arquivo do staged antes do commit
 git push origin NOME_DA_BRANCH # Enviar commits para o GitHub
 git pull origin NOME_DA_BRANCH # Atualizar o repositório local com mudanças do GitHub
+git diff # Visualizar as modificações
