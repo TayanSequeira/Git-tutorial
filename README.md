@@ -25,6 +25,7 @@ git config --global user.email seuemail@example.com
 
 ```bash
 ### 3. Principais comandos
+```Bash
 git init # Inicializa um repositório
 git clone URL_DO_REPOSITORIO # Clonar um repositório existente
 git status # Verificar o status do repositório
@@ -35,5 +36,9 @@ git restore File # Retornar modificacoes no arquivo
 git restore --staged File # Retornar um arquivo do staged antes do commit
 git push origin NOME_DA_BRANCH # Enviar commits para o GitHub
 git pull origin NOME_DA_BRANCH # Atualizar o repositório local com mudanças do GitHub
+<<<<<<< HEAD
 git fatch # Visualizar o que será feito
 git diff orign/NOME_DA_BRANCH #Ver qual será exataemnte a mudança
+=======
+git diff # Visualizar as modificações
+>>>>>>> main
